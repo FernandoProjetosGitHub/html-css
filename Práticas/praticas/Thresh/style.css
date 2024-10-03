@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    padding: 15px;
+    height: 97vh;
+    max-width: 800px;
+    background-image: url(teste.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+header {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+
+}
+
+header h1{
+    color: rgb(58, 178, 161);
+    text-shadow: 2px 2px 6px black;
+}
+
+#icon img{
+    height: 32px;
+    display: inline;
+    margin: 6px;
+    
+}
+
+.botoes button {
+    color: rgb(29, 167, 22);
+    display: block;
+    margin: 3px auto;
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid rgb(19, 27, 35);
+    background-color: rgb(38, 79, 88);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.botoes img {
+    height: 18px ;
+    
+
+}
+main p {
+    margin-top: 40px;
+    color: rgb(103, 197, 185);
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 6px black;
+    display: block; 
+    
+}
+.botoes a {
+    text-decoration: none;
+    color: white;
+}
+
+
