@@ -8,8 +8,7 @@
 
 .beneficiosimportante {
     margin: auto;
-    height: 1200px;
-    width: 1400px;
+    width: 100%;
     background-color: var(--cor1);
 }
 
@@ -43,7 +42,7 @@
     justify-content: center;
 }
 .beneficiosp {
-    margin-top: 100px;
+    padding: 50px;
     display: block;
 
 }

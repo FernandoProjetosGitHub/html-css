@@ -1,4 +1,13 @@
 @media screen and (max-width: 900px) {
+    header {
+        height: 96vh;
+        background-color: var(--cor1);
+        
+    }
+
+    .menu {
+       padding-left: 35px; 
+    }
     .menu nav a {
         display: none;
     }
@@ -18,7 +27,14 @@
         padding: 30px;
         
     }
-
+    .h1 p {
+            font-family: 'Poppins', Arial, sans-serif;
+            font-weight: 500;
+            font-size: large;
+            padding: 40px 0px 40px;
+            margin: 0px;
+        
+        }
     .imagem {
         display: none
         
@@ -27,22 +43,32 @@
     .imagempq {
         display: block;
         margin: auto;
+        
             
     }
 
-    .h1 p {
-        font-family: 'Poppins', Arial, sans-serif;
-        font-weight: 500;
-        font-size: large;
-        padding: 80px;
-        margin: 0px;
-    
+    .imagempq img {
+        width: 100%;
     }
 
-    header {
-        height: 140vh;
-        background-color: var(--cor1);
-        
+    .media h1{
+        padding-top: 300px;
+        font-size: 40px;
+        line-height: 40px;
+    }    
+
+    .media p {
+        padding: 0px 20px 50px;
+    }
+    
+    #h1 {
+        padding: 50px 0px 0px;
+        font-size: 25px;
+    }
+
+    #h2 {
+        padding: 0px 0px 50px;
+        font-size: 50px;
     }
 
     .imgdovideo img {
@@ -66,6 +92,10 @@
         margin: auto;    
     }
 
+    .h1solto {
+        font-size: 60px;
+    }
+
     .beneficios {
         display: block;
             
@@ -80,9 +110,12 @@
 
     .beneficiosimportante {
         margin: auto;
-        height: 2450px;
-        width: 1400px;
+        width: 100%;
         background-color: var(--cor1);
+    }
+
+    .beneficiosp {
+        margin-top: 0px;
     }
 
     .beneficiosp p {
@@ -92,7 +125,7 @@
         font-size: 1em;
         font-style: italic;
         justify-content: center;
-        padding-left: 35px;   
+           
     }
 
     .clientesperfil img {
