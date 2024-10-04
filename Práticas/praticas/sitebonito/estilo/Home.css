@@ -57,6 +57,7 @@ header {
     font-family: 'Poppins', Arial, sans-serif;
     padding-left: 150px;
     
+    
 }
 
 .h1 p {
@@ -70,8 +71,12 @@ header {
 .imagem {
     bottom: 0%;
     position: absolute;
-    right: 0;
+    right: 0%;
 
+}
+
+.imagempq {
+    display: none;
 }
 
 .button-28 {
