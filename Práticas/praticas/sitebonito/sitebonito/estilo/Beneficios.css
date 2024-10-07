@@ -1,0 +1,62 @@
+.h1solto {
+    padding: 50px 0px;
+    color: var(--cor1);
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.beneficiosimportante {
+    margin: auto;
+    width: 100%;
+    background-color: var(--cor1);
+}
+
+.beneficios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50%;
+    gap: 1rem;
+    
+}
+
+.beneficios1 {
+    padding: 50px;
+    height: 320px;
+    width: 350px;
+        
+}
+
+.beneficios1 h1 {
+    font-size: 1.7em;
+    background-image: linear-gradient(90deg, rgba(62,225,252,1) 0%, rgba(62,130,252,1) 46%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.beneficios1 p {
+    display: block ;
+    color: white;
+    justify-content: center;
+}
+.beneficiosp {
+    padding: 50px;
+    display: block;
+
+}
+
+.beneficiosp a {
+
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(62,130,252,1) ;
+}
+
+.beneficiosp p {
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-style: italic;
+}
