@@ -1,0 +1,125 @@
+header {
+    font-family: var(--font1);
+    height: 100%;
+    width: 100%;  
+    
+}
+
+menu {
+    display: flex;
+    padding: 20px 0px 100px 0px;
+    justify-content: space-evenly;
+
+}
+nav {
+    text-align: right;
+    
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: var(--font1);
+    padding: 0px 15px;
+       
+}
+
+nav a:hover{
+    color: var(--cor1);
+    background-color: white;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: var(--cor1) 1px 1px 1px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-family: var(--font1);
+    font-weight: 400;
+}
+.button-3 {
+  appearance: none;
+  background-color: rgba(153, 40, 45, 1);
+  ;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 26px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: white;
+  color: rgba(153, 40, 45, 1);
+  ;
+}
+
+.button-3:focus {
+  box-shadow: rgba(153, 40, 45, 1);
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(35, 27, 27, 0.1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: var(--cor1);
+  box-shadow: rgba(70, 20, 20, 0.2) 0 1px 0 inset;
+}
+
+.apresentacao {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imagem/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 100%;
+       
+}
+
+.apresentacao-texto {
+    height: 100%;
+    padding: 100px 0px 80px 390px ;
+    display: block;
+
+}
+
+.apresentacao h1 {
+    font-family: var(--font1);
+    font-size: 3.7em;
+    color: var(--cor1);
+    line-height: 80px;
+}
+
+.apresentacao p {
+    font-family: var(--font1);
+    font-weight: 450;
+    font-size: 1.5em;
+    padding: 50px 0px;
+}
+#botao-inferior{
+    padding: 20px 45px;
+}

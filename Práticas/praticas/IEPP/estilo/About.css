@@ -1,0 +1,36 @@
+.About {
+    height: 100%;
+    font-family: var(--font1);
+    background-color: var(--cor1);
+    color: white;
+}
+
+.info {
+    padding: 100px 0px 80px;
+}
+
+.info h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    
+}
+
+.info h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.info-grid {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid1 {
+    padding: 30px;
+    width: 400px;
+
+}
