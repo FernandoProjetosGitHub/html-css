@@ -1,0 +1,84 @@
+.painel {
+    width: 100%;
+    background-image: url(../imagem/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80%;
+    background-position-y: 100%;
+    background-color: rgb(200, 139, 141);
+    
+}
+.painel-total {
+    padding: 0px 280px;
+}
+
+.painel-caixa {
+    height: 500px;
+    padding-top: 200px;
+    display: block;
+}
+
+.painel-caixa h1 {
+    font-size: 3em;
+    font-family: var(--font1);
+}
+
+.painel-caixa p {
+    padding: 30px 0px 0px 0px;
+    font-size: 1.2em;
+    font-family: var(--font1);
+}
+
+.button-2 {
+    appearance: none;
+    background-color: white;
+    ;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: rgba(153, 40, 45, 1);
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px 36px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-2:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .button-2:hover {
+    background-color: rgba(153, 40, 45, 1);
+    color: white;
+    ;
+  }
+  
+  .button-2:focus {
+    box-shadow: rgba(153, 40, 45, 1);
+    outline: none;
+  }
+  
+  .button-2:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(35, 27, 27, 0.1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .button-2:active {
+    background-color: var(--cor1);
+    box-shadow: rgba(70, 20, 20, 0.2) 0 1px 0 inset;
+  }

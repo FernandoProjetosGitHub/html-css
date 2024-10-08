@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: var(--font1);
 }
 :root {
     --font1: 'Poppins', Arial, sans-serif;

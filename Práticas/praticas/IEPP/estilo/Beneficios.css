@@ -1,0 +1,42 @@
+.integracao {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.integracao-lista{
+    display: block;
+    padding: 80px 40px;
+    display: block;
+}
+
+.integracao-lista h1 {
+    padding: 50px 0px 30px;
+    font-family: var(--font1);
+    font-size: 3em;
+}
+
+.integracao-lista p {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.lista {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.lista img {
+    padding-right: 10px;
+    
+}
+
+#img-formulario {
+    padding: 80px;
+}
+
+
