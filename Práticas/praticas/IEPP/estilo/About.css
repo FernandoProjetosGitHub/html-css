@@ -39,7 +39,9 @@
 @media only screen and (max-width: 1000px) {
 
 .info {
-    padding: 100px 30px 80px;
+    padding: 100px 0px;
+    text-align: center;
+    width: 100%;
 }
 
 .info h1 {
@@ -54,7 +56,7 @@
 .info h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 2.4em;
+    font-size: 2em;
 }
 
 .info-grid {
