@@ -123,3 +123,80 @@ nav a:hover{
 #botao-inferior{
     padding: 20px 45px;
 }
+
+/* RESPONSIVIDADE MOBILE */
+@media only screen and (max-width: 1000px) {
+menu {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0px 20px;
+    
+}
+.menu-img img {
+    width: 200px;
+    padding-bottom: 20px;
+}
+.menu-reduzido {
+    display: flex;
+    justify-content: center;
+}
+.menu-parte2 {
+    display: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: var(--font1);
+    padding: 0px 15px;
+       
+}
+
+nav a:hover{
+    color: var(--cor1);
+    background-color: white;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: var(--cor1) 1px 1px 1px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-family: var(--font1);
+    font-weight: 400;
+}
+
+.apresentacao {
+  height: 100%;
+  width: 100%;
+  background-image: url(../imagem/Group\ 1.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  background-position-x: 1450%;
+  background-position-y: 100%;
+     
+}
+
+.apresentacao-texto {
+  height: 100%;
+  padding: 50px 5px 150px;
+  display: block;
+  text-align: left;
+}
+
+.apresentacao h1 {
+  font-family: var(--font1);
+  font-size: 1.5em;
+  color: var(--cor1);
+  line-height: 30px;
+  padding: 0px 20px 20px 20px;
+}
+
+.apresentacao p {
+  width: 200px;
+  font-family: var(--font1);
+  font-weight: 450;
+  font-size: 16px;
+  padding: 0px 20px 30px;
+}
+
+}

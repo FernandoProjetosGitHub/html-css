@@ -88,3 +88,46 @@
     background-color: var(--cor1);
     box-shadow: rgba(70, 20, 20, 0.2) 0 1px 0 inset;
   }
+
+  /* RESPONSIVIDADE MOBILE */
+@media only screen and (max-width: 1000px) {
+  
+  .Calendario {
+    margin-bottom: 0px;
+    display: block;
+}
+
+.calendario-total {
+    padding: 0;
+    background-color: var(--cor1);
+    display: block;       
+} 
+
+.calendario-img {
+  padding: 0;
+}
+
+.calendario-img img {
+  width: 100%;
+}
+
+.calendario-texto {
+  text-align: center;
+  padding: 20px 0px 60px;
+  display: block;
+}
+
+.calendario-texto h1 {
+  padding: 10px 0px;
+  color: white; 
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.calendario-texto h2 {
+  padding:  40px 0px;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+}

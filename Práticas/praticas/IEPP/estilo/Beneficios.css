@@ -7,7 +7,7 @@
 .integracao-lista{
     display: block;
     padding: 80px 40px;
-    display: block;
+    
 }
 
 .integracao-lista h1 {
@@ -38,5 +38,30 @@
 #img-formulario {
     padding: 80px;
 }
+
+ /* RESPONSIVIDADE MOBILE */
+ @media only screen and (max-width: 1000px) {
+
+.integracao {
+    display: block;
+    text-align: center;          
+}
+
+.integracao img {
+    align-items: center;
+}
+
+#img-formulario {
+    padding: 50px 0px 0px;
+    width: 300px;    
+}
+
+.lista p {
+    text-align: left;
+}
+
+
+
+ }
 
 

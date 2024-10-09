@@ -11,7 +11,7 @@
     font-size: 3em;
 }
 
-.depoimento-titulo {
+.depoimento-total {
     padding: 100px;
     text-align: center;
 }
@@ -32,5 +32,38 @@
 
 .depoimento-cards div p {
     font-size: 16px;
+}
+
+ /* RESPONSIVIDADE MOBILE */
+ @media only screen and (max-width: 1000px) {
+
+.depoimento-total {
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+
+.depoimento-cards {
+    align-items: center;
+    display: block;
+    text-align: center;
+    
+}
+
+.depoimento-cards div {
+    text-align: left;
+    height: 100%;
+    padding: 30px 30px;
+    width: 300px;
+}
+
+.depoimentos h1 {
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 435;
+    color: rgba(0, 119, 192, 1);
+
+}
+
 }
 

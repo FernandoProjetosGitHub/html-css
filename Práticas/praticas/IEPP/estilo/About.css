@@ -34,3 +34,41 @@
     width: 400px;
 
 }
+
+/* RESPONSIVIDADE MOBILE */
+@media only screen and (max-width: 1000px) {
+
+.info {
+    padding: 100px 30px 80px;
+}
+
+.info h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    
+}
+
+.info h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.info-grid {
+    padding-bottom: 100px;
+    display: block;
+    align-items: center;
+}
+
+.grid1 {
+    padding: 30px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+
+}
+    
+}

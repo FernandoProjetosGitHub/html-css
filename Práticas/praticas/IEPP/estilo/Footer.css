@@ -48,5 +48,51 @@ footer p {
     padding: 5px;
 }
 
+/* RESPONSIVIDADE MOBILE */
+@media only screen and (max-width: 1000px) {
+
+footer {
+    color: white;
+    display: block;
+    background-color: rgba(29, 36, 43, 1);
+
+}
+
+.footer-informacoes {
+    text-align: left;
+    padding: 30px 50px;
+}
+
+.footer-detalhes {
+    padding: 30px 50px 50px;
+    display: block;
+}
+
+.footer-detalhes h1 {
+    padding: 0px;
+}
+
+.footer-detalhes address {
+    padding-bottom: 20px;
+}
+
+.footer-detalhes p {
+    text-align: left;
+    padding-bottom: 40px;
+}
+.footer-logo {
+    padding: 20px 0px;
+}
+
+.coluna {
+    padding: 0;
+}
+footer p {
+    text-align: center;
+}
+
+}
+
+
 
 
