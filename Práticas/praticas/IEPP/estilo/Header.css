@@ -146,6 +146,10 @@ menu {
     display: none;
 }
 
+nav {
+  justify-content: center;
+}
+
 nav a {
     color: black;
     text-decoration: none;
