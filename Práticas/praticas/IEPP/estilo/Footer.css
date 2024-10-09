@@ -1,7 +1,5 @@
 footer {
     color: white;
-    display: flex;
-    justify-content: center;
     background-color: rgba(29, 36, 43, 1);    
 }
 
@@ -48,6 +46,15 @@ footer p {
     padding: 5px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.fim {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 /* RESPONSIVIDADE MOBILE */
 @media only screen and (max-width: 1000px) {
 
@@ -88,6 +95,14 @@ footer {
     padding: 0;
 }
 footer p {
+    text-align: center;
+}
+.footer {
+    display: block;
+    
+}
+.fim {
+    padding-bottom: 20px;
     text-align: center;
 }
 
