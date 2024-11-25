@@ -1,0 +1,1 @@
+Como os elementos estáticos e posicionados relativos permanecem no fluxo normal do documento, quando um usuário rola a página (ou elemento pai) esses elementos também rolarão. E como os elementos fixos e posicionados absolutos são removidos do fluxo do documento, quando um usuário rola, esses elementos permanecerão na posição de deslocamento especificada.

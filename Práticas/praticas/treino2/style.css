@@ -1,0 +1,89 @@
+/* Reset básico para garantir uma base comum entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho fixo no topo */
+header {
+    position: fixed; /* Fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    z-index: 1000; /* Fica acima de outros elementos */
+}
+
+/* Navegação com lista horizontal */
+nav {
+    margin-top: 80px; /* Espaço para o header fixo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Itens da lista em linha */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    margin-top: 120px; /* Espaço para o header e nav */
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 45%;
+    float: left; /* A imagem flutua para a esquerda */
+    margin-right: 20px;
+}
+
+.imagem img {
+    width: 100%;
+    border: 2px solid #ccc;
+}
+
+.texto {
+    width: 50%;
+    display: inline-block; /* Texto ao lado da imagem */
+    vertical-align: top;
+}
+
+/* Limpeza do float */
+.conteudo::after {
+    content: "";
+    display: table;
+    clear: both; /* Limpa o float */
+}
+
+/* Rodapé com sticky */
+footer {
+    position: sticky; /* Fixa o footer na parte inferior da tela quando rolar */
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Exemplo de z-index com sobreposição */
+footer {
+    z-index: 500; /* Z-index para garantir que o footer fique acima de outros elementos */
+}

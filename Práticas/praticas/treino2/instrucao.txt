@@ -1,0 +1,29 @@
+Explicação das Propriedades Usadas:
+
+    position (relative, absolute, fixed, sticky):
+        position: fixed; foi usado no header para fixá-lo no topo da página, de modo que ele permanece visível enquanto rola o conteúdo.
+        position: sticky; foi aplicado ao footer para que ele "grude" no rodapé da página quando o usuário rola o conteúdo para baixo.
+        position: relative; poderia ser utilizado, por exemplo, em um elemento para criar um novo contexto de empilhamento, embora não tenha sido necessário neste exercício.
+
+    z-index:
+        Definido no header e footer para controlar a sobreposição entre elementos. O z-index no header garante que ele ficará acima de outros elementos.
+
+    display (block, inline-block):
+        display: inline-block; foi utilizado nos itens da lista de navegação (nav ul li) para exibi-los horizontalmente.
+        display: block; foi usado para a estrutura de layout (como o header e footer) que ocupam toda a largura disponível.
+
+    float e clear:
+        float: left; foi aplicado à .imagem para que ela fique alinhada à esquerda e o texto se posicione ao lado dela.
+        clear: both; foi usado no pseudo-elemento ::after dentro de .conteudo para garantir que o conteúdo depois da imagem não fique sobrepondo a ela.
+
+Como Estudar:
+
+    Posição e Empilhamento: Observe como os elementos com position: fixed e position: sticky se comportam durante o rolar da página. Teste mudando os valores de top, bottom, left, e right.
+
+    Layout Flutuante: Entenda como o float afeta o layout e como o clear pode ser usado para evitar sobreposição de conteúdo.
+
+    Z-Index: Teste alterando os valores de z-index para ver como ele influencia a sobreposição de elementos.
+
+    Exibição de Blocos: Compare a diferença entre display: inline-block; e display: block; para entender como os elementos são renderizados na página.
+
+Esse exercício combina várias propriedades CSS que são fundamentais para a construção de layouts responsivos e flexíveis.
